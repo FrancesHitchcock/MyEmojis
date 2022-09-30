@@ -1,0 +1,113 @@
+html {
+    height: 100vh;
+    font-family: Baloo;
+}
+
+body {
+    padding: 10px;
+    background-image: linear-gradient(#f27a7d, #f7d486, #c5f9d7);
+    text-align: center  ;
+}
+
+#container, .buttons-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#today-div {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    margin-bottom: 30px;
+    color: #1E5D1D;
+    text-shadow: 1px 1px 2px whitesmoke;
+    padding-left: 10px;
+    border: 1px solid #c5f9d7;
+    border-radius: 10px;
+    width: 400px;
+    box-sizing: border-box;
+}
+
+#main-div {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #c5f9d7;
+    border-radius: 10px;
+    padding: 20px 20px 30px 20px;
+    width: 400px;
+    box-sizing: border-box;
+}
+
+#date-div {
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+#emoji-of-day-span {
+    margin-right: 20px;
+}
+
+#today-div span {
+    font-size: 100px;
+    margin-top: 10px;
+}
+
+#emoji-container {
+    text-align: center;
+    margin: 0px 60px 10px 10px;
+    font-size: 50px;
+    list-style: none;
+    padding-left: 0;
+    line-height: 70px;
+}
+
+#interactive-div {
+    padding-right: 20px;
+}
+
+
+#push-btn, #unshift-btn {
+    background-color: #5BCC59;
+}
+
+#shift-btn,#pop-btn {
+    background-color: #E23349;
+}
+
+h1 {
+    letter-spacing: 2px;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px #333;
+}
+
+input {
+    margin:  10px auto;
+    display: block;
+    border: none;
+    height: 30px;
+    background: whitesmoke;
+    border-radius: 6px;
+    text-align: center;
+}
+
+button {
+    font-family: Baloo;
+    background: darkcyan;
+    color: white;
+    border: none;
+    padding: 4px 10px;
+    border-radius: 6px;
+    margin: 10px 4px;
+}
+
+p {
+    width: 200px;
+    margin-bottom: 0;
+    color: #222;
+}
+
+

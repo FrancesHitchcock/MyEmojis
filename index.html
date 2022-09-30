@@ -1,0 +1,48 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.googleapis.com/css2?family=Baloo&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="container">
+            <h1>Frances's Emojis</h1>  
+            
+            <div id="today-div">
+                <div id="date-div">
+                    <h2 id="emoji-h2">Emoji of the Day</h2>
+                    <h3 id="date-h3"></h3>
+
+                </div>
+                
+                <span id="emoji-of-day-span"></span>
+            </div>
+
+            <div id="main-div">
+
+                <div>
+                    <ul id="emoji-container"></ul>
+                </div>
+
+                <div id="interactive-div">
+                    
+                    <div class="buttons-wrapper">
+                        <button id="unshift-btn">Add to top</button>
+                        <button id="shift-btn">Remove from top</button>
+                    </div>
+                    <input type="text" id="emoji-input" placeholder="type an emoji 🎉">
+                    <div class="buttons-wrapper">
+                        <button id="push-btn">Add to bottom</button>
+                        <button id="pop-btn">Remove from bottom</button>
+                        <p>click on emoji to select as Emoji of the Day</p>
+                    </div>
+                </div>
+
+            </div>
+
+            
+        </div>
+        
+
+        <script src="index.js"></script>
+    </body>
+</html>
